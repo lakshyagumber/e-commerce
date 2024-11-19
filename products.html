@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Products - ShopEase</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <h1 class="logo">ShopEase</h1>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="products.html" class="active">Products</a></li>
+        <li><a href="login.html">Login</a></li>
+        <li><a href="cart.html">Cart</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="products-section">
+      <h2>Our Products</h2>
+      <div class="products-grid">
+        <!-- Product Cards -->
+        <div class="product-card">
+            <img src="product1.jpg" alt="Product 1">
+            <h3>Product 1</h3>
+            <p>$10.00</p>
+            <button class="add-to-cart-btn" data-id="1">Add to Cart</button>
+          </div>
+          <div class="product-card">
+            <img src="product2.jpg" alt="Product 2">
+            <h3>Product 2</h3>
+            <p>$15.00</p>
+            <button class="add-to-cart-btn" data-id="2">Add to Cart</button>
+          </div>
+          
+        <div class="product-card">
+          <img src="https://via.placeholder.com/150" alt="Product 3">
+          <h3>Product 3</h3>
+          <p>$30.00</p>
+          <button class="add-to-cart-btn" data-id="3">Add to Cart</button>
+        </div>
+        <!-- Add more products as needed -->
+      </div>
+      <section class="product-section animatable">
+        <div class="product-card">
+          <img src="https://via.placeholder.com/150" alt="Product 1">
+          <h3>Product 1</h3>
+          <p>$10.00</p>
+          <button class="add-to-cart-btn">Add to Cart</button>
+        </div>
+        <!-- Repeat for other products -->
+      </section>
+      
+    </section>
+  </main>
+  <footer>
+    <p>© 2024 ShopEase. All rights reserved.</p>
+  </footer>
+  <script src="scripts.js"></script>
+</body>
+</html>
